@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+  width: 80%;
+  margin: 15px auto 0;
+  background-color: rgb(223, 222, 222);
+  padding: 25px;
+  /* position: relative; */
+}

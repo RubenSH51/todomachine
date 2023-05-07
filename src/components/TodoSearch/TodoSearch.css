@@ -1,0 +1,12 @@
+
+
+input
+{
+    height: 40px;
+    width: 80%;
+    min-width: 300px;
+    max-width: 600px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+}

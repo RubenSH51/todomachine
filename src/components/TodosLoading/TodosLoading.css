@@ -1,0 +1,42 @@
+
+
+.loadingContainer 
+{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.loadingContainer div
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(235, 77, 77);
+    /* animation: scale 2s ease-in-out infinite alternate; */
+}
+
+.loadingContainer1 {
+    animation: scale 1s ease-in-out infinite alternate;
+    animation-delay: 0s;
+  }
+  
+  .loadingContainer2 {
+    animation: scale 0.9s ease-in-out infinite alternate;
+    animation-delay: 0.3s;
+  }
+  
+  .loadingContainer3 {
+    animation: scale 0.9s ease-in-out infinite alternate;
+    animation-delay: 0.6s;
+  }
+
+@keyframes scale {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.5);
+    }
+  }

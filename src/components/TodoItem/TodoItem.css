@@ -1,0 +1,22 @@
+
+li 
+{
+    list-style: none;
+    margin: 10px 0;
+    border: 1px solid black;
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.Icon-check--active
+{
+    opacity: 0.5;
+}
+
+.p-check--active
+{
+    text-decoration: line-through;
+    color: gray;
+}
